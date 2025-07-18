@@ -1,74 +1,49 @@
-# Startup - Free Next.js Startup Website Template
+# Aspect Infotech Public Website
 
-Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
+This is the official public website for Aspect Infotech, built with Next.js and designed to showcase our expertise in digital transformation, solution architecture, and identity management. The site features a modern, responsive design with dark mode support, a dynamic blog (Perspectives), and a contact form for business inquiries.
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
+## 🚀 Tech Stack
+- **Framework:** [Next.js](https://nextjs.org/) (React-based, SSR/SSG support)
+- **Language:** TypeScript
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) v4, custom CSS, and [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) for blog formatting
+- **State/Theme:** [next-themes](https://github.com/pacocoursey/next-themes) for dark/light mode
+- **Forms:** [Tally.so](https://tally.so/) embedded for contact
+- **Slider:** [react-slick](https://react-slick.neostack.com/) and [slick-carousel](https://kenwheeler.github.io/slick/)
+- **Markdown Rendering:** [marked](https://marked.js.org/), [gray-matter](https://github.com/jonschlinkert/gray-matter), [remark-gfm](https://github.com/remarkjs/remark-gfm), [rehype-raw](https://github.com/rehypejs/rehype-raw), [rehype-sanitize](https://github.com/rehypejs/rehype-sanitize), [rehype-stringify](https://github.com/rehypejs/rehype-stringify), [unified](https://unifiedjs.com/)
+- **Linting/Formatting:** ESLint, Prettier, prettier-plugin-tailwindcss
+- **PostCSS Plugins:** autoprefixer, @tailwindcss/postcss
 
-### ✨ Key Features
-- Crafted for Startup and SaaS Business
-- Next.js and Tailwind CSS
-- All Essential Business Sections and Pages
-- High-quality and Clean Design
-- Dark and Light Version
-- TypeScript Support
-and Much More ...
+## 📦 Major Dependencies
+- next
+- react, react-dom
+- tailwindcss, @tailwindcss/typography, @tailwindcss/postcss
+- github-markdown-css
+- next-themes
+- react-slick, slick-carousel
+- marked, gray-matter, remark-gfm, rehype-raw, rehype-sanitize, rehype-stringify, unified
+- eslint, eslint-config-next
+- prettier, prettier-plugin-tailwindcss
+- typescript
 
-### 🙌 Detailed comparison between the Free and Pro versions of Startup
+## 🗂️ Project Structure
+- `src/app/` — Next.js app directory (pages, routes)
+- `src/components/` — Reusable UI components
+- `src/styles/` — Tailwind and global CSS
+- `public/images/` — Static images and assets
+- `public/blog/` — Blog posts in Markdown
 
-| Feature             | Free | Pro |
-|---------------------|------------|----------|
-| Next.js Landing Page             | ✅ Yes      | ✅ Yes      |
-| All The Integrations - Auth, DB, Payments, Blog and many more ...             | ❌ No      | ✅ Yes |
-| Homepage Variations             | 1      | 2 |
-| Additional SaaS Pages and Components             | ❌ No      | ✅ Yes |
-| Functional Blog with Sanity       | ❌ No      | ✅ Yes | ✅ Yes |
-| Use with Commercial Projects            | ✅ Yes      | ✅ Yes      |
-| Lifetime Free Updates             | ✅ Yes      | ✅ Yes |
-| Email Support       | ❌ No         | ✅ Yes       |
-| Community Support         | ✅ Yes         | ✅ Yes       |
+## 🛠️ Scripts
+- `npm run dev` — Start development server
+- `npm run build` — Build for production
+- `npm start` — Start production server
+- `npm run lint` — Lint codebase
 
+## 🌐 Features
+- Modern, responsive design with dark mode
+- Dynamic blog (Perspectives) rendered from Markdown
+- Contact form with Tally.so integration
+- Office address and ABN for business legitimacy
+- SEO-friendly and performant
 
-### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
-
-[![Startup Pro](https://raw.githubusercontent.com/NextJSTemplates/startup-nextjs/main/startup-pro.webp)](https://nextjstemplates.com/templates/saas-starter-startup)
-
-Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startup websites. Comes with with Authentication, Database, Blog, and all the essential integrations necessary for SaaS business sites.
-
-
-### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
-
-### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
-
-### [📦 Download](https://nextjstemplates.com/templates/startup)
-
-### [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
-
-### [🔌 Documentation](https://nextjstemplates.com/docs)
-
-### ⚡ Deploy Now
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
-
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
-
-
-### 📄 License
-Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
-
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
-
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
-
-### Update Log
-
-**10 April 2025**
-- Fix peer deps issue with Next.js 15
-- Upgrade to tailwind v4
-- Refactored blog cards for handling edge cases(text ellipsis on bio, keeping author details at the bottom etc.)
-- Re-wrote blog details page with icons separation, fallback author image and better markup.
-- Fixed duplicate key errors on homepage.
-- Separated icons on theme-switcher button, and refactored scroll-to-top button.
-
-**29 Jan 2025**
-- Upgraded to Next.js 15
+## 📄 License
+This project is proprietary to Aspect Infotech. For inquiries, contact us via the website.
