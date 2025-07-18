@@ -133,3 +133,7 @@ layer(base);
     @apply inline-flex;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

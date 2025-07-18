@@ -1,42 +1,105 @@
+"use client";
+
 import Link from "next/link";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Hero = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true, // Enable arrows
+    autoplay: true,
+    autoplaySpeed: 7000,
+    appendDots: dots => (
+      <div style={{ bottom: '-30px' }}>
+        <ul className="slick-dots-custom">{dots}</ul>
+      </div>
+    ),
+    customPaging: i => (
+      <div
+        style={{
+          width: "16px",
+          height: "16px",
+          borderRadius: "50%",
+          background: "#4A6CF7",
+          opacity: 0.5,
+          display: "inline-block",
+        }}
+      />
+    ),
+  };
   return (
     <>
       <section
         id="home"
         className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
-        <div className="container">
+        <div className="container relative">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Free and Open-Source Next.js Template for Startup & SaaS
-                </h1>
-                <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Startup is free Next.js template for startups and SaaS
-                  business websites comes with all the essential pages,
-                  components, and sections you need to launch a complete
-                  business website, built-with Next 13.x and Tailwind CSS.
-                </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
-                    className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    🔥 Get Pro
-                  </Link>
-                  <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
-                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
-                  >
-                    Star on GitHub
-                  </Link>
-                </div>
+              <div className="mx-auto max-w-[800px] text-center relative z-10">
+                <Slider {...settings}>
+                  {/* Slide 1: Current Hero */}
+                  <div>
+                    <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                      Architecting Extraordinary Digital Outcomes
+                    </h1>
+                    <p className="mb-12 text-base leading-relaxed! text-black dark:text-white sm:text-lg md:text-xl">
+                      As your trusted partner, we have deep understanding of technology and the latest digital trends. 
+                      We use this knowledge to work with bold organizations to deliver from seed to scale, 
+                      specializing in solution architecture and identity management that creates lasting impact.
+                    </p>
+                    <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                      <Link
+                        href="/contact"
+                        className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                      >
+                        Let's Talk
+                      </Link>
+                      <Link
+                        href="/#expertise"
+                        className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                      >
+                        Our Expertise
+                      </Link>
+                    </div>
+                  </div>
+                  {/* Slide 2: Architecture as a Service */}
+                  <div>
+                    <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                      Architecture as a Service
+                    </h1>
+                    <p className="mb-12 text-base leading-relaxed! text-black dark:text-white sm:text-lg md:text-xl">
+                      Augment your architecture team with on-demand experts. We provide AI-driven design reviews, TOGAF and C4 modeling, and deep tool expertise to accelerate your digital transformation and deliver robust, scalable solutions.
+                    </p>
+                    <div className="flex flex-col items-center justify-center">
+                      <Link
+                        href="/architecture-as-a-service"
+                        className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                      >
+                        Learn More
+                      </Link>
+                    </div>
+                  </div>
+                </Slider>
               </div>
             </div>
           </div>
+        </div>
+        {/* Right-side background image, only on large screens */}
+        <div className="hidden lg:block absolute top-0 right-0 h-full w-1/2 z-0 pointer-events-none">
+          <img 
+            src="/images/hero/architecture-as-a-service.jpg" 
+            alt="Architecture as a Service background" 
+            className="h-full w-full object-cover object-right opacity-70 mix-blend-lighten" 
+            style={{ filter: 'blur(0.5px)', maskImage: 'linear-gradient(to left, black 80%, transparent 100%)' }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-l from-white/90 to-transparent" />
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg

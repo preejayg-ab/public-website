@@ -3,45 +3,45 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Charting your digital initiatives using C4 Architecture Model",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "A practical guide to visualizing and communicating complex digital solutions using the C4 model. Learn how to break down your architecture into clear, actionable diagrams for teams and stakeholders.",
+    image: "/images/blog/c4-architecture-hero.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "knowledge Management team",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "Principal Consultant",
     },
-    tags: ["creative"],
-    publishDate: "2025",
+    tags: ["C4 Model"],
+    publishDate: "2024",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Leveraging TOGAF to Support Scaled Agile Digital Programs",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      "Explore how TOGAF can be adapted to accelerate agile digital transformation at scale. Insights on integrating architecture frameworks with modern delivery practices.",
+    image: "/images/blog/togaf-scaled-agile-hero.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "knowledge Management team",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "Principal Consultant",
     },
-    tags: ["computer"],
-    publishDate: "2025",
+    tags: ["TOGAF", "Agile"],
+    publishDate: "2024",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "A Strategic Lens on Federal Identity, Credential, and Access Management (FICAM)",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+      "A deep dive into the challenges and opportunities in federal identity, credential, and access management. Strategies for building secure, scalable, and user-centric identity solutions in the public sector.",
+    image: "/images/blog/digital-identity-hero.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "knowledge Management team",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Principal Consultant",
     },
-    tags: ["design"],
-    publishDate: "2025",
+    tags: ["Identity Management"],
+    publishDate: "2024-08-12",
   },
 ];
 export default blogData;

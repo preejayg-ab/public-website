@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="We believe a vision creates the path to quality"
+                paragraph="The most ambitious projects in the world start with a vision. At Aspect Infotech, we partner with our clients to deliver projects from seed to scale, with humility, an honest approach and deep commitment to your extraordinary outcomes."
                 mb="44px"
               />
 
@@ -35,34 +35,50 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Bold Vision Creation" />
+                    <List text="Deep Expertise" />
+                    <List text="Solution Architecture" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Identity Management" />
+                    <List text="Digital Transformation" />
+                    <List text="Confidence Through Simplicity" />
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-25/24 max-w-[500px] lg:mr-0">
-                <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                />
+              <div className="flex h-[400px] md:h-[500px] gap-0">
+                {/* First column: single tall image */}
+                <div className="relative h-full w-1/2 rounded-lg overflow-hidden">
+                  <Image
+                    src="/images/about/vision-tech-1.jpg"
+                    alt="Digital vision photo 1"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                {/* Second column: two stacked images, each half height */}
+                <div className="flex flex-col h-full w-1/2">
+                  <div className="relative flex-1 rounded-t-lg overflow-hidden border-b border-white/10 dark:border-gray-900/10">
+                    <Image
+                      src="/images/about/vision-tech-2.jpg"
+                      alt="Digital vision photo 2"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="relative flex-1 rounded-b-lg overflow-hidden">
+                    <Image
+                      src="/images/about/vision-tech-3.jpg"
+                      alt="Digital vision photo 3"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
