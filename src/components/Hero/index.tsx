@@ -59,7 +59,7 @@ const Hero = () => {
                         href="/contact"
                         className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                       >
-                        Let's Talk
+                        Let&#39;s Talk
                       </Link>
                       <Link
                         href="/#expertise"

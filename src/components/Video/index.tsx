@@ -26,7 +26,7 @@ export default function Video() {
                         </svg>
                       </div>
                       <h3 className="text-2xl font-bold mb-2">Ready to Start?</h3>
-                      <p className="text-lg opacity-90">Let's discuss your architecture needs</p>
+                      <span className="text-lg font-medium text-primary mb-2">Let&#39;s talk about your next project</span>
                     </div>
                   </div>
                 </div>

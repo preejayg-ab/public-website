@@ -25,7 +25,7 @@ const PerformanceAnalyticsPage = () => {
                     AI-Powered Performance Analytics
                   </h2>
                   <p className="mb-12 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed">
-                    Our AI-driven analytics platform provides real-time insights into your architecture's performance, automatically identifying bottlenecks, predicting issues, and suggesting optimizations to ensure your systems run at peak efficiency.
+                    Our AI-driven analytics platform provides real-time insights into your architecture&#39;s performance, automatically identifying bottlenecks, predicting issues, and suggesting optimizations to ensure your systems run at peak efficiency.
                   </p>
                   
                   <div className="mb-8">
