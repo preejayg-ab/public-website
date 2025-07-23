@@ -3,7 +3,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Performance Analytics | Aspect Infotech",
+  title: "Performance Analytics | Aspect Blueprints",
   description: "AI-powered performance analytics that continuously monitor and optimize your architecture. Real-time insights and predictive analytics for optimal system performance.",
 };
 
@@ -266,4 +266,4 @@ const PerformanceAnalyticsPage = () => {
   );
 };
 
-export default PerformanceAnalyticsPage; 
+export default PerformanceAnalyticsPage;

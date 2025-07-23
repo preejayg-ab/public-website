@@ -3,7 +3,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Data Solutions | Aspect Infotech",
+  title: "Data Solutions | Aspect Blueprints",
   description: "Extract maximum value from your data assets. Our data solutions help you unlock the full potential of your data through intelligent architecture and analytics.",
 };
 
@@ -310,4 +310,4 @@ const DataSolutionsPage = () => {
   );
 };
 
-export default DataSolutionsPage; 
+export default DataSolutionsPage;

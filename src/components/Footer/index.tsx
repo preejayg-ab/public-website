@@ -12,8 +12,8 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo.png"
-                    alt="Aspect Infotech Logo"
+                    src="/images/logo/aspectblueprints-logo.png"
+                    alt="Aspect Blueprints Logo"
                     width={180}
                     height={40}
                     className="h-auto w-auto max-h-10"
@@ -21,7 +21,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Aspect Infotech partners with bold organizations to architect extraordinary digital outcomes. We deliver practical, AI-driven, and outcome-focused solution architecture and identity management for your digital transformation journey.
+                  Aspect Blueprints partners with bold organizations to architect extraordinary digital outcomes. We deliver practical, AI-driven, and outcome-focused solution architecture and identity management for your digital transformation journey.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -192,7 +192,7 @@ const Footer = () => {
           <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              © 2024 Aspect Infotech. All rights reserved.
+              © 2024 Aspect Blueprints. All rights reserved.
             </p>
           </div>
         </div>

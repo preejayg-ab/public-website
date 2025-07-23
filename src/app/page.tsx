@@ -9,7 +9,7 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aspect Infotech - Architecting Extraordinary Digital Outcomes",
+  title: "Aspect Blueprints - Architecting Extraordinary Digital Outcomes",
   description: "As your trusted partner, we have deep understanding of technology and the latest digital trends. We work with bold organizations to deliver from seed to scale.",
   // other metadata
 };

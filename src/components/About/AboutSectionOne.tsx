@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="We believe a vision creates the path to quality"
-                paragraph="The most ambitious projects in the world start with a vision. At Aspect Infotech, we partner with our clients to deliver projects from seed to scale, with humility, an honest approach and deep commitment to your extraordinary outcomes."
+                paragraph="The most ambitious projects in the world start with a vision. At Aspect Blueprints, we partner with our clients to deliver projects from seed to scale, with humility, an honest approach and deep commitment to your extraordinary outcomes."
                 mb="44px"
               />
 

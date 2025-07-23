@@ -3,7 +3,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Data Modeling | Aspect Infotech",
+  title: "Data Modeling | Aspect Blueprints",
   description: "AI-powered data modeling that creates optimal data architectures and patterns. Intelligent data design for scalable, efficient, and secure data solutions.",
 };
 
@@ -266,4 +266,4 @@ const DataModelingPage = () => {
   );
 };
 
-export default DataModelingPage; 
+export default DataModelingPage;

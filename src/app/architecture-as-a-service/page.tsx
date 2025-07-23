@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Architecture as a Service | Aspect Infotech",
+  title: "Architecture as a Service | Aspect Blueprints",
   description: "Augment your architecture team with AI-driven design reviews, TOGAF content framework expertise, and modern C4 architecture modeling. Enterprise architecture tool expertise included.",
 };
 
@@ -49,7 +49,7 @@ const ArchitectureAsAService = () => {
                 Reduced Cost & Friction
               </h3>
               <p className="mb-6 text-body-color dark:text-body-color-dark">
-                Aspect Infotech brings significant experience in Architecture as a Service delivery, including well-proven engagements and mission-critical architecture support. Our team provides more breadth and depth in AaaS than most architecture providers.
+                Aspect Blueprints brings significant experience in Architecture as a Service delivery, including well-proven engagements and mission-critical architecture support. Our team provides more breadth and depth in AaaS than most architecture providers.
               </p>
               <ul className="space-y-2 text-body-color dark:text-body-color-dark">
                 <li className="flex items-start">
@@ -373,4 +373,4 @@ const ArchitectureAsAService = () => {
   );
 };
 
-export default ArchitectureAsAService; 
+export default ArchitectureAsAService;

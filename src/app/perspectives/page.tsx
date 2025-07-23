@@ -15,7 +15,7 @@ const Blog = () => {
     <>
       <Breadcrumb
         pageName="Perspectives"
-        description="Views, opinion and insight from the team behind Aspect Infotech."
+        description="Views, opinion and insight from the team behind Aspect Blueprints."
       />
 
       <section className="pt-[120px] pb-[120px]">

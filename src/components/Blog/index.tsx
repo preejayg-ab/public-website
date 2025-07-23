@@ -11,7 +11,7 @@ const Blog = () => {
       <div className="container">
         <SectionTitle
           title="Perspectives"
-          paragraph="Views, opinion and insight from the team behind Aspect Infotech."
+          paragraph="Views, opinion and insight from the team behind Aspect Blueprints."
           center
         />
 

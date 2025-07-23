@@ -8,7 +8,7 @@ import { marked } from 'marked';
 import 'github-markdown-css/github-markdown-dark.css';
 
 export const metadata: Metadata = {
-  title: 'Blog Details | Aspect Infotech',
+  title: 'Blog Details | Aspect Blueprints',
 };
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -66,4 +66,4 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       </div>
     </section>
   );
-} 
+}

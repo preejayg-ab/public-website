@@ -3,7 +3,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solution Architecture | Aspect Infotech",
+  title: "Solution Architecture | Aspect Blueprints",
   description: "Transform your business challenges into strategic technology solutions. Our outcome-driven solution architecture ensures your technology landscape becomes a competitive advantage.",
 };
 
@@ -253,4 +253,4 @@ const SolutionArchitecturePage = () => {
   );
 };
 
-export default SolutionArchitecturePage; 
+export default SolutionArchitecturePage;

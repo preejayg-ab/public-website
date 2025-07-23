@@ -3,7 +3,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Identity & Access Management | Aspect Infotech",
+  title: "Identity & Access Management | Aspect Blueprints",
   description: "Protect your business against cyber threats with comprehensive IAM solutions. Build deep and lasting cybersecurity capabilities with zero trust architecture.",
 };
 
@@ -253,4 +253,4 @@ const IAMPage = () => {
   );
 };
 
-export default IAMPage; 
+export default IAMPage;

@@ -49,8 +49,8 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo.png"
-                  alt="Aspect Infotech Logo"
+                  src="/images/logo/aspectblueprints-logo.png"
+                  alt="Aspect Blueprints Logo"
                   width={180}
                   height={40}
                   className="h-auto w-auto max-h-10"

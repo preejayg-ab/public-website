@@ -3,7 +3,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cloud Architecture | Aspect Infotech",
+  title: "Cloud Architecture | Aspect Blueprints",
   description: "Develop scalable, secure cloud architecture for your mission-critical workloads. We help you choose the right cloud platform and design optimal cloud solutions.",
 };
 
@@ -310,4 +310,4 @@ const CloudArchitecturePage = () => {
   );
 };
 
-export default CloudArchitecturePage; 
+export default CloudArchitecturePage;

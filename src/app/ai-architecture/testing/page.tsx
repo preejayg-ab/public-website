@@ -3,7 +3,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Automated Testing | Aspect Infotech",
+  title: "Automated Testing | Aspect Blueprints",
   description: "AI-powered automated testing that ensures your architecture performs flawlessly. Intelligent test generation, execution, and analysis for robust solutions.",
 };
 
@@ -209,4 +209,4 @@ const AutomatedTestingPage = () => {
   );
 };
 
-export default AutomatedTestingPage; 
+export default AutomatedTestingPage;

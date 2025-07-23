@@ -3,7 +3,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Intelligent Design | Aspect Infotech",
+  title: "Intelligent Design | Aspect Blueprints",
   description: "AI-powered design processes that create optimal architecture patterns and solutions. Transform your design approach with intelligent automation and insights.",
 };
 
@@ -201,4 +201,4 @@ const IntelligentDesignPage = () => {
   );
 };
 
-export default IntelligentDesignPage; 
+export default IntelligentDesignPage;

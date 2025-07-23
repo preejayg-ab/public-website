@@ -3,7 +3,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Digital Transformation | Aspect Infotech",
+  title: "Digital Transformation | Aspect Blueprints",
   description: "Turn your technology landscape into a differentiating asset. We help you make strategic architecture choices to unlock full potential from digital transformation.",
 };
 
@@ -310,4 +310,4 @@ const DigitalTransformationPage = () => {
   );
 };
 
-export default DigitalTransformationPage; 
+export default DigitalTransformationPage;

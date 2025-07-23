@@ -3,7 +3,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI Architecture Tools | Aspect Infotech",
+  title: "AI Architecture Tools | Aspect Blueprints",
   description: "Leverage cutting-edge AI tools to supercharge your solution architecture. Our intelligent platforms accelerate design, reduce complexity, and ensure optimal outcomes.",
 };
 
@@ -145,4 +145,4 @@ const AIArchitectureToolsPage = () => {
   );
 };
 
-export default AIArchitectureToolsPage; 
+export default AIArchitectureToolsPage;
