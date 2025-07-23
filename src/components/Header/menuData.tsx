@@ -1,7 +1,7 @@
 import { Menu } from "@/types/menu";
 
 const menuData: Menu[] = [
-  {
+{
     id: 1,
     title: "Home",
     path: "/",
@@ -70,8 +70,8 @@ const menuData: Menu[] = [
       },
       {
         id: 42,
-        title: "Identity & Access Management",
-        path: "/services/iam",
+        title: "Human-Centric Design",
+        path: "/services/human-centric-design",
         newTab: false,
       },
       {
@@ -87,7 +87,7 @@ const menuData: Menu[] = [
         newTab: false,
       },
       {
-        id: 45,
+        id: 46,
         title: "Data Solutions",
         path: "/services/data-solutions",
         newTab: false,

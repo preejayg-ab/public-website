@@ -41,7 +41,7 @@ const Contact = () => {
             </div>
             <div className="mt-8 p-6 rounded-lg bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
               <h3 className="text-lg font-semibold mb-2 text-black dark:text-white">Our Office</h3>
-              <p className="text-base text-body-color dark:text-body-color-dark mb-1">81-83 Campbell Street<br/>Surry Hills NSW 2010</p>
+              <p className="text-base text-body-color dark:text-body-color-dark mb-1">Aspect Blueprints (subsidiary of AspectBlue Digital)<br/>81-83 Campbell Street<br/>Surry Hills NSW 2010</p>
               <p className="text-base text-body-color dark:text-body-color-dark">ABN: 99659837653</p>
             </div>
           </div>

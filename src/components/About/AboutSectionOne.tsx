@@ -34,16 +34,16 @@ const AboutSectionOne = () => {
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+<div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Bold Vision Creation" />
-                    <List text="Deep Expertise" />
-                    <List text="Solution Architecture" />
+                    <List text="Outcome oriented architecture" />
+                    <List text="Deep Digital Expertise" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Identity Management" />
-                    <List text="Digital Transformation" />
-                    <List text="Confidence Through Simplicity" />
+                    <List text="Intutively Human Centric" />
+                    <List text="Data driven actionable insights" />
+                    <List text="Confidence through simplicity" />
                   </div>
                 </div>
               </div>

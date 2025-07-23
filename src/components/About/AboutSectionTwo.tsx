@@ -27,34 +27,34 @@ const AboutSectionTwo = () => {
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
-            <div className="max-w-[470px]">
-              {/* Solution Architecture */}
+            <div className="max-w-[570px]">
+              {/* Human-Centric Design */}
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Solution Architecture
+                  Human-Centric Design
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Modern application solutioning using micro frontends, microservices, custom off-the-shelf solution implementation and integration, and AWS cloud migration. Our architects design scalable, maintainable, and secure systems tailored to your business needs.
+                We focus on service and digital design that puts users at the core of transformation. By mapping customer journeys and uncovering pain points, we co-design and prototype intuitive digital experiences that delight users and drive meaningful business outcomes.
                 </p>
               </div>
 
-              {/* Identity and Access Management */}
+              {/* Digital Architecture Blueprinting */}
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Identity & Access Management
+                  Digital Architecture Blueprinting
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Customer identity management using Auth0, access management with OPA and OpenFGA, and identity governance leveraging SailPoint and Saviynt. We deliver robust, secure, and compliant IAM solutions for modern enterprises.
+                Using proven frameworks like C4, AI-driven design reviews, and deep expertise in cloud, containerisation, and data ecosystems, we create clear, scalable architecture blueprints. Our approach ensures solutions are secure, consistent, and aligned with your strategic goals.
                 </p>
               </div>
 
-              {/* Digital Transformation */}
+              {/* SaaS and Platform Enablement */}
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Digital Transformation
+                  SaaS and Platform Enablement
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  We combine deep technical expertise in cloud, data, and automation with real-world pragmatism to modernize your technology landscape, optimize business processes, and drive measurable business value at scale.
+                We streamline your adoption of best-in-class SaaS solutions to accelerate time-to-value. As a trusted software reseller and integration partner, we simplify procurement and deployment of platforms like Auth0 and ClickHouse—letting you focus on innovation and growth.
                 </p>
               </div>
             </div>
