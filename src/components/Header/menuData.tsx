@@ -64,32 +64,33 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 41,
-        title: "Solution Architecture",
-        path: "/services/solution-architecture",
-        newTab: false,
-      },
-      {
-        id: 42,
         title: "Human-Centric Design",
         path: "/services/human-centric-design",
         newTab: false,
       },
       {
-        id: 43,
+        id: 42,
         title: "Digital Transformation",
         path: "/services/digital-transformation",
         newTab: false,
       },
       {
-        id: 44,
-        title: "Cloud Architecture",
-        path: "/services/cloud-architecture",
+        id: 43,
+        title: "Solution Architecture",
+        path: "/services/solution-architecture",
         newTab: false,
       },
       {
-        id: 46,
+        id: 44,
         title: "Data Solutions",
         path: "/services/data-solutions",
+        newTab: false,
+      },
+
+      {
+        id: 45,
+        title: "Platform Enablement",
+        path: "/services/platform-enablement",
         newTab: false,
       },
     ],
